@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Gilroy;
+    src: url("/public/Fonts/Gilroy-Medium.ttf");
+}
+body{
+    font-family: Gilroy;
+}
+.expbox{
+    background: linear-gradient(to bottom, transparent, black);
+}
+
+.none{
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+.none::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
